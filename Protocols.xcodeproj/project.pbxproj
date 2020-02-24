@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB9898F824008F650044947A /* Protocols.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9898F624008F650044947A /* Protocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB9898FF240090090044947A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9898FE240090090044947A /* Protocols.swift */; };
+		AB989947240422090044947A /* Protocols.h in Headers */ = {isa = PBXBuildFile; fileRef = AB989945240422090044947A /* Protocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB98994E240422520044947A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB98994D240422520044947A /* Protocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB9898F324008F650044947A /* Protocols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Protocols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB9898F624008F650044947A /* Protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
-		AB9898F724008F650044947A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB9898FE240090090044947A /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
-		AB989920240097810044947A /* Protocols.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Protocols.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB989942240422090044947A /* Protocols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Protocols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB989945240422090044947A /* Protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
+		AB989946240422090044947A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB98994D240422520044947A /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AB9898F024008F650044947A /* Frameworks */ = {
+		AB98993F240422090044947A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,29 +29,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB9898E924008F650044947A = {
+		AB989938240422090044947A = {
 			isa = PBXGroup;
 			children = (
-				AB989920240097810044947A /* Protocols.podspec */,
-				AB9898F524008F650044947A /* Protocols */,
-				AB9898F424008F650044947A /* Products */,
+				AB989944240422090044947A /* Protocols */,
+				AB989943240422090044947A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AB9898F424008F650044947A /* Products */ = {
+		AB989943240422090044947A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB9898F324008F650044947A /* Protocols.framework */,
+				AB989942240422090044947A /* Protocols.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB9898F524008F650044947A /* Protocols */ = {
+		AB989944240422090044947A /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				AB9898FE240090090044947A /* Protocols.swift */,
-				AB9898F624008F650044947A /* Protocols.h */,
-				AB9898F724008F650044947A /* Info.plist */,
+				AB98994D240422520044947A /* Protocols.swift */,
+				AB989945240422090044947A /* Protocols.h */,
+				AB989946240422090044947A /* Info.plist */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -60,25 +58,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AB9898EE24008F650044947A /* Headers */ = {
+		AB98993D240422090044947A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9898F824008F650044947A /* Protocols.h in Headers */,
+				AB989947240422090044947A /* Protocols.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AB9898F224008F650044947A /* Protocols */ = {
+		AB989941240422090044947A /* Protocols */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB9898FB24008F650044947A /* Build configuration list for PBXNativeTarget "Protocols" */;
+			buildConfigurationList = AB98994A240422090044947A /* Build configuration list for PBXNativeTarget "Protocols" */;
 			buildPhases = (
-				AB9898EE24008F650044947A /* Headers */,
-				AB9898EF24008F650044947A /* Sources */,
-				AB9898F024008F650044947A /* Frameworks */,
-				AB9898F124008F650044947A /* Resources */,
+				AB98993D240422090044947A /* Headers */,
+				AB98993E240422090044947A /* Sources */,
+				AB98993F240422090044947A /* Frameworks */,
+				AB989940240422090044947A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,25 +84,25 @@
 			);
 			name = Protocols;
 			productName = Protocols;
-			productReference = AB9898F324008F650044947A /* Protocols.framework */;
+			productReference = AB989942240422090044947A /* Protocols.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AB9898EA24008F650044947A /* Project object */ = {
+		AB989939240422090044947A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Scardina;
 				TargetAttributes = {
-					AB9898F224008F650044947A = {
+					AB989941240422090044947A = {
 						CreatedOnToolsVersion = 11.3.1;
 						LastSwiftMigration = 1130;
 					};
 				};
 			};
-			buildConfigurationList = AB9898ED24008F650044947A /* Build configuration list for PBXProject "Protocols" */;
+			buildConfigurationList = AB98993C240422090044947A /* Build configuration list for PBXProject "Protocols" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,18 +110,18 @@
 				en,
 				Base,
 			);
-			mainGroup = AB9898E924008F650044947A;
-			productRefGroup = AB9898F424008F650044947A /* Products */;
+			mainGroup = AB989938240422090044947A;
+			productRefGroup = AB989943240422090044947A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB9898F224008F650044947A /* Protocols */,
+				AB989941240422090044947A /* Protocols */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AB9898F124008F650044947A /* Resources */ = {
+		AB989940240422090044947A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -133,18 +131,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AB9898EF24008F650044947A /* Sources */ = {
+		AB98993E240422090044947A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB9898FF240090090044947A /* Protocols.swift in Sources */,
+				AB98994E240422520044947A /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AB9898F924008F650044947A /* Debug */ = {
+		AB989948240422090044947A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +193,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -207,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		AB9898FA24008F650044947A /* Release */ = {
+		AB989949240422090044947A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -264,7 +262,7 @@
 			};
 			name = Release;
 		};
-		AB9898FC24008F650044947A /* Debug */ = {
+		AB98994B240422090044947A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -280,6 +278,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindyourownbuisness.Protocols;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -289,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		AB9898FD24008F650044947A /* Release */ = {
+		AB98994C240422090044947A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -305,6 +304,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mindyourownbuisness.Protocols;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -316,25 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB9898ED24008F650044947A /* Build configuration list for PBXProject "Protocols" */ = {
+		AB98993C240422090044947A /* Build configuration list for PBXProject "Protocols" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB9898F924008F650044947A /* Debug */,
-				AB9898FA24008F650044947A /* Release */,
+				AB989948240422090044947A /* Debug */,
+				AB989949240422090044947A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB9898FB24008F650044947A /* Build configuration list for PBXNativeTarget "Protocols" */ = {
+		AB98994A240422090044947A /* Build configuration list for PBXNativeTarget "Protocols" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB9898FC24008F650044947A /* Debug */,
-				AB9898FD24008F650044947A /* Release */,
+				AB98994B240422090044947A /* Debug */,
+				AB98994C240422090044947A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AB9898EA24008F650044947A /* Project object */;
+	rootObject = AB989939240422090044947A /* Project object */;
 }
