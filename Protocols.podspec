@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => 'https://github.com/popmedic/decouple-protocols.git',
                         :tag => spec.version.to_s }
-  spec.source_files = "Protocols/*"
+  spec.source_files = "Protocols/*.{swift,h}"
 end
 
