@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Protocols"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.4"
   spec.summary      = "Protocols."
 
   spec.description  = "decouple the protocols"
