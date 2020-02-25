@@ -14,6 +14,7 @@
 
 /* Begin PBXFileReference section */
 		14BFEE8424044B2E005C5AAE /* Protocols.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Protocols.podspec; sourceTree = "<group>"; };
+		14BFEE9D24051C4C005C5AAE /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		AB989942240422090044947A /* Protocols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Protocols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB989945240422090044947A /* Protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
 		AB989946240422090044947A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,11 +32,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14BFEE9C24051BE8005C5AAE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AB98994D240422520044947A /* Protocols.swift */,
+				AB989945240422090044947A /* Protocols.h */,
+				AB989946240422090044947A /* Info.plist */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		AB989938240422090044947A = {
 			isa = PBXGroup;
 			children = (
 				14BFEE8424044B2E005C5AAE /* Protocols.podspec */,
-				AB989944240422090044947A /* Protocols */,
+				14BFEE9D24051C4C005C5AAE /* Package.swift */,
+				AB989944240422090044947A /* Sources */,
 				AB989943240422090044947A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,14 +60,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB989944240422090044947A /* Protocols */ = {
+		AB989944240422090044947A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AB98994D240422520044947A /* Protocols.swift */,
-				AB989945240422090044947A /* Protocols.h */,
-				AB989946240422090044947A /* Info.plist */,
+				14BFEE9C24051BE8005C5AAE /* Protocols */,
 			);
-			path = Protocols;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +285,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Protocols/Info.plist;
+				INFOPLIST_FILE = Sources/Protocols/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +311,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Protocols/Info.plist;
+				INFOPLIST_FILE = Sources/Protocols/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
